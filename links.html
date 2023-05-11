@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: down;
+  width: 100%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body,html,h1 {background:#fff;font-family:"Bitstream Vera Sans","Lucida Grande","Lucida Sans Unicode",Lucidux,Verdana,Lucida,sans-serif;}
+
+</style>
+</head>
+<body>
+<style>
+
+</style>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ededed;">
+   <a href="url">link text</a>
+  </div>
+  <div class="column" style="background-color:##d7dbd8;">
+	<a href="url">link text</a>
+  </div>
+    <div class="column" style="background-color:#ededed;">
+	<a href="url">link text</a>
+  </div>
+</div>
+
+</body>
+</html>
